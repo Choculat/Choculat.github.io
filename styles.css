@@ -49,7 +49,15 @@
       color: white;
     }
 
+    .lightPink {
+      color: rgb(255, 217, 229);
+    }
+
     .skin {
       width: 5%;
       float: left;
+    }
+
+    .button {
+      padding: 0%;
     }
