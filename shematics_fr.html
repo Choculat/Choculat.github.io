@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schémas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f5cafb7848.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+</head>
+
+<body class="backgroundCherry">
+
+    <header>
+
+        <div class="row header" id="myHeader">
+
+            <a href="shematics.html" class="col-auto"> <i class="fa-solid fa-language lightPink "></i> </a>
+            <h5 class="col-auto lightPink mcFont">Fr</h5>
+
+            <h1 class="col text-justify lightPink"></h1>
+
+            <a href="index_fr.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Acceuil</p>
+            </a>
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+
+            <a href="webGallery_fr.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Gallery web</p>
+            </a>
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+
+            <a href="log_fr.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Journal</p>
+            </a>
+
+
+            <span class="col-auto d-md-none d-inline-block open lightPink mcFont" onclick="openNav()">&#9776;
+                Navigation</span>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <a href="index_fr.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Acceuil</p>
+            </a>
+
+            <a href="webGallery_fr.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Gallery web</p>
+            </a>
+
+            <a href="log_fr.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Journal</p>
+            </a>
+
+        </div>
+
+
+
+
+
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var header = document.getElementById("myHeader");
+
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+
+        </script>
+
+
+
+    </header>
+
+    <main class="container">
+
+        <br>
+
+        <div class="row justify-content-between">
+
+            <div class="col">
+                <div class="row">
+
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel1" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Invisible Anvil From The Floor1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Invisible Anvil From The Floor2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Invisible Anvil From The Floor3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Enclume Invisible À Même Le Sol</h2>
+
+                            <p>Distribuez une nouvelle enclume lorsque l'actuelle se casse. Activé par un capteur Sculk.
+                            </p>
+                            <a href="shematics/Invisible Anvil From The Floor.litematic" class="black"
+                                onclick="return confirm('Télécharger localement ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/34rcghn02dlmjp6/Invisible_Anvil_From_The_Floor.litematic/file"
+                                target="_blank" class="black"
+                                onclick="return confirm('Télécharger à partir de MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=CqJ-H96HnXc" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel2" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Fully Hidden Anvil Refiller1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Fully Hidden Anvil Refiller2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Fully Hidden Anvil Refiller3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Rechargeur D'Enclume Cachée</h2>
+
+                            <p>Distribue une nouvelle enclume lorsque le joueur clique sur le bouton.</p>
+                            <a href="shematics/Fully Hidden Anvil Refiller.litematic" class="black"
+                                onclick="return confirm('Télécharger localement ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/0k1xzcu7rh7a8va/Fully_Hidden_Anvil_Refiller.litematic/file"
+                                target="_blank" class="black"
+                                onclick="return confirm('Télécharger à partir de MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=6BPyJsduE_g" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel3" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Simplest Anvil Refiller1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Simplest Anvil Refiller2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Simplest Anvil Refiller3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Remplisseur D'Enclume Simpliste</h2>
+
+                            <p>Distribuez une nouvelle enclume lorsque l'actuelle se casse. Activé par un observeur.</p>
+                            <a href="shematics/Simplest Anvil Refiller.litematic" class="black"
+                                onclick="return confirm('Télécharger localement ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/np77apetaf5hghr/Simplest_Anvil_Refiller.litematic/file"
+                                target="_blank" class="black"
+                                onclick="return confirm('Télécharger à partir de MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=k1ZqI3Wu_H0" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel4" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Minecraft Simplest Armor Selector1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Minecraft Simplest Armor Selector2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Minecraft Simplest Armor Selector3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Sélecteur D'armure Le Plus Simple De Minecraft</h2>
+
+                            <p>Distribue un porte-armure avec l'équipement sélectionné.</p>
+                            <a href="shematics/Minecraft Simplest Armor Selector.litematic" class="black"
+                                onclick="return confirm('Télécharger localement ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/y2wsrubq8zvmm5b/Minecraft_Simplest_Armor_Selector.litematic/file"
+                                target="_blank" class="black"
+                                onclick="return confirm('Télécharger à partir de MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=6Jl7cBnUZ7M" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel5" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Invisible Armor Display Refiller1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Invisible Armor Display Refiller2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Invisible Armor Display Refiller3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Remplaceur De Porte-Armure Invisible</h2>
+
+                            <p>Distribue un porte-armure à travers le mur lorsqu'un joueur appuie sur le bouton situé
+                                sur le bloc avec la torche de redstone.</p>
+                            <a href="shematics/Invisible Armor Display Refiller.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/wv5i444gukaljd8/Invisible_Armor_Display_Refiller.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=VrclZgTeHLI" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel6" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Simple Slot Machine1.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Simple Slot Machine2.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Simple Slot Machine3.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel6"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Simple Machine À Argent</h2>
+
+                            <p>Filtre ce qu'il y a à l'intérieur du dropper au sol. Si c'est un diamant, les 3 lumières
+                                ont chacune 50% de chances de s'allumer. Si les 3 sont allumés, le joueur est
+                                récompensé par 2 diamants distribués à l'intérieur du dropper au plafond (% de
+                                chance modifiable).</p>
+                            <a href="shematics/Simple Slot Machine.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/rsvhudr3p61gww8/Simple_Slot_Machine.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=c5hokKnHHf4" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel7" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Armor Display 2.0 1.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Armor Display 2.0 2.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Armor Display 2.0 3.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel7"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel7"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Vitrine De Porte-Armure 2.0</h2>
+
+                            <p>Remplace le porte-armure de présentation par un porte-armure vide, puis équipe le joueur
+                                de l'équipement(plat).</p>
+                            <a href="shematics/Armor Display 2.0.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/ihn42hrcgrx8d84/Armor_Display_2.0.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=wXCvWQBSAl4" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel8" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Tileable Poor's Man Shulker Display1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Tileable Poor's Man Shulker Display2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Tileable Poor's Man Shulker Display3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel8"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel8"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Affichage Shulker À Faible Coût Pouvant Être Répété Côte À Côte</h2>
+
+                            <p>Affichage Shulker à faible coût activé par un bouton.</p>
+                            <a href="shematics/Tileable Poor's Man Shulker Display.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/2d8y0yq3c31lcjb/Tileable_Poor%2527s_Man_Shulker_Display.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=lbZ0XBLiRUg" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel9" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Auto Armor Showcase1.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Auto Armor Showcase2.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Auto Armor Showcase3.png" class="d-block w-100 noHighlight"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel9"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel9"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Vitrine Automatique De Porte-Armure</h2>
+
+                            <p>Remplace le porte-armure de présentation par un porte-armure vide, puis équipe le joueur
+                                de l'équipement(non-plat).</p>
+                            <a href="shematics/Auto Armor Showcase.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/i207oru46z1quaw/Auto_Armor_Showcase.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=NeRKZ9SkfP8" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel10" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Tool Refilling System Remake1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Tool Refilling System Remake2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Tool Refilling System Remake3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel10"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel10"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Nouvelle Version Du Système De Remplissage D'outils</h2>
+
+                            <p>Vous donne automatiquement un nouvel outil lorsque l'actuel se casse.</p>
+                            <a href="shematics/Tool Refilling System Remake.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/idpncrsdoun2hhi/Tool_Refilling_System_Remake.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=NhYfJe5lQWU" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel11" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/Sweaping Killing Chamber Remake1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Sweaping Killing Chamber Remake2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/Sweaping Killing Chamber Remake3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel11"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel11"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Nouvelle Version De La Chambre De Mise À Mort</h2>
+
+                            <p>Chambre de mise à mort simple permettant au joueur de tuer plusieurs monstres à la fois.
+                            </p>
+                            <a href="shematics/Sweaping Killing Chamber Remake.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/9hu0xzu4zcfzy4b/Sweaping_Killing_Chamber_Remake.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=-LX7oSv-gnY" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="col-md-6 col-12 boiteShematic">
+
+                        <div id="carousel12" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imageShematics/flat tileable shulkerbox display1.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/flat tileable shulkerbox display2.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imageShematics/flat tileable shulkerbox display3.png"
+                                        class="d-block w-100 noHighlight" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel12"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel12"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="boiteShematicTexte">
+
+                            <h2>Présentoir Shulkerbox Au Sol Pouvant Être Répété Côte À Côte</h2>
+
+                            <p>Présentoir au sol pour shulkers avec remplissage et collecte automatiques.</p>
+                            <a href="shematics/flat tileable shulkerbox display.litematic" class="black"
+                                onclick="return confirm('Download locally ?')"><i
+                                    class="fa-solid fa-file-arrow-down shematicDownload pinkish"></i></a>
+                            <a href="https://www.mediafire.com/file/0u0s1s8upgce0s7/flat_tileable_shulkerbox_display.litematic/file"
+                                target="_blank" class="black" onclick="return confirm('Download within MediaFire ?')"><i
+                                    class="fa-solid fa-fire orange shematicMediaFire"></i></a>
+                            <a href="https://www.youtube.com/watch?v=giym69WM7jA" target="_blank" class="black"><i
+                                    class="fa-brands fa-youtube shematicYT red"></i></a>
+
+                        </div>
+
+                    </div>
+                    <!---->
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <footer class="container-fluid">
+
+        <div class="lightPink">
+            <br>
+
+
+            <p>Code source disponible sur <a href="https://github.com/Choculat/Choculat.github.io" target="_blank"
+                    class="lightPink"
+                    style="text-decoration: underline;">https://github.com/Choculat/Choculat.github.io</a>
+            </p>
+
+            <p>Contactez-moi à choculatcorp@gmail.com</p>
+
+            <p>&nbsp;Un domain ©ChoculatCorp</p>
+
+        </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
