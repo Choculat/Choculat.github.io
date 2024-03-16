@@ -280,6 +280,9 @@
         font-size: 1.4em;
 
       }
+        .video {
+        display: none;
+      }
     }
 
     @media(max-height: 1200px) {
