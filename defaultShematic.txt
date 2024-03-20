@@ -1,3 +1,4 @@
+ <!---->
  <div class="col-md-6 col-12 boiteShematic">
 
                         <div id="carouselX" class="carousel slide">
@@ -43,4 +44,4 @@
                         </div>
 
                     </div>
-                    <!---->
+                   
