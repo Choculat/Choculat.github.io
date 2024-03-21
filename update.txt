@@ -1,3 +1,5 @@
 -fixed bug with video background on mobile home page
 
 -added new shematic "tiny pop-up chest"
+
+-added me70813 in the web gallery
