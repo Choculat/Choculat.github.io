@@ -1,3 +1,5 @@
 -fixed bug with video background on mobile home page
 
 -added new shematic "tiny pop-up chest"
+
+-added new shematic "Invisible Minecart Dispenser"
