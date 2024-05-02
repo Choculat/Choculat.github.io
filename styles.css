@@ -282,6 +282,14 @@
       padding: 0.8em;
     }
 
+    .leaderboardPrize {
+      background-color: rgb(250, 145, 229);
+      border-radius: 15px 15px 15px 15px;
+      padding: 0.8em;
+      margin-left: 20em;
+      margin-right: 20em;
+    }
+
     .pinkish {
       color: rgb(190, 89, 106);
     }
