@@ -10,16 +10,17 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f5cafb7848.js" crossorigin="anonymous"></script>
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/server_logo.png" />
+    
 </head>
 
 <body class="backgroundCherry">
 
-    <header>
+   <header>
 
         <div class="row header" id="myHeader">
 
-            <a href="shematics_fr.html" class="col-auto"> <i class="fa-solid fa-language lightPink "></i> </a>
+            <a href="index_fr.html" class="col-auto"> <i class="fa-solid fa-language lightPink "></i> </a>
             <h5 class="col-auto lightPink mcFont">En</h5>
 
             <h1 class="col text-justify lightPink"></h1>
@@ -27,15 +28,25 @@
             <a href="index.html" class="col-auto d-none d-md-inline-block">
                 <p class="lightPink selecteur mcFont">Home</p>
             </a>
-            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
 
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
             <a href="webGallery.html" class="col-auto d-none d-md-inline-block">
-                <p class="lightPink selecteur mcFont">Web gallery</p>
+                <p class="lightPink selecteur mcFont">Web Gallery</p>
             </a>
             <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
 
             <a href="log.html" class="col-auto d-none d-md-inline-block">
                 <p class="lightPink selecteur mcFont">Log</p>
+            </a>
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+
+            <a href="shematics.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Shematics</p>
+            </a>
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+
+            <a href="leaderboard.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Leaderboard</p>
             </a>
 
 
@@ -52,11 +63,19 @@
             </a>
 
             <a href="webGallery.html" class="col-auto">
-                <p class="lightPink selecteur2 mcFont centered">Web gallery</p>
+                <p class="lightPink selecteur2 mcFont centered">Web Gallery</p>
             </a>
 
             <a href="log.html" class="col-auto">
                 <p class="lightPink selecteur2 mcFont centered">Log</p>
+            </a>
+
+            <a href="shematics.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Shematics</p>
+            </a>
+
+            <a href="leaderboard.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Leaderboard</p>
             </a>
 
         </div>
@@ -122,7 +141,7 @@
                     style="text-decoration: underline;">https://github.com/Choculat/Choculat.github.io</a>
             </p>
 
-            <br>
+            <p>Contact me at choculatcorp@gmail.com</p>
 
             <p>&nbsp;A ©ChoculatCorp domain</p>
 

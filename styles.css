@@ -270,6 +270,18 @@
       color: rgb(255, 217, 229);
     }
 
+    .leaderboard {
+      background-color: rgb(237, 128, 215);
+      border-radius: 15px 15px 0px 0px;
+      padding: 0.8em;
+    }
+
+    .leaderboardName {
+      background-color: rgb(250, 145, 229);
+      border-radius: 0px 0px 15px 15px;
+      padding: 0.8em;
+    }
+
     .pinkish {
       color: rgb(190, 89, 106);
     }

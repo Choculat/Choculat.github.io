@@ -28,15 +28,25 @@
             <a href="index.html" class="col-auto d-none d-md-inline-block">
                 <p class="lightPink selecteur mcFont">Home</p>
             </a>
+
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+            <a href="webGallery.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Web Gallery</p>
+            </a>
             <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
 
-            <a href="webGallery.html" class="col-auto d-none d-md-inline-block">
-                <p class="lightPink selecteur mcFont">Web gallery</p>
+            <a href="log.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Log</p>
             </a>
             <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
 
             <a href="shematics.html" class="col-auto d-none d-md-inline-block">
                 <p class="lightPink selecteur mcFont">Shematics</p>
+            </a>
+            <div class="col-auto d-none d-md-inline-block noHighlight lightPink">｜</div>
+
+            <a href="leaderboard.html" class="col-auto d-none d-md-inline-block">
+                <p class="lightPink selecteur mcFont">Leaderboard</p>
             </a>
 
 
@@ -53,11 +63,19 @@
             </a>
 
             <a href="webGallery.html" class="col-auto">
-                <p class="lightPink selecteur2 mcFont centered">Web gallery</p>
+                <p class="lightPink selecteur2 mcFont centered">Web Gallery</p>
+            </a>
+
+            <a href="log.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Log</p>
             </a>
 
             <a href="shematics.html" class="col-auto">
                 <p class="lightPink selecteur2 mcFont centered">Shematics</p>
+            </a>
+
+            <a href="leaderboard.html" class="col-auto">
+                <p class="lightPink selecteur2 mcFont centered">Leaderboard</p>
             </a>
 
         </div>
@@ -132,6 +150,12 @@
                     <td>29MB</td>
                 </tr>
 
+                <tr onclick="tooLarge()">
+                    <td>Version 1.3</td>
+                    <td>Bug Fixes; Web brownser icon added; Navigation bar redesign; Leaderboard page added</td>
+                    <td>05/2/2024</td>
+                    <td>121MB</td>
+                </tr>
 
             </tbody>
 
@@ -143,6 +167,10 @@
                 if (confirm("Do you want to download version " + string + " ?")) {
                     document.location = "Logs/Version " + string + " Web Gallery.zip";
                 }
+            }
+            function tooLarge(string) {
+                alert("File too large ! Download it on MediaFire with the link below.");
+
             }
 
         </script>
