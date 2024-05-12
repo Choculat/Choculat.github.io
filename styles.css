@@ -308,6 +308,10 @@
       float: left;
     }
 
+    .smol {
+      width: 7%;
+    }
+
 
     @media(max-width: 991px) {
       .skin {
