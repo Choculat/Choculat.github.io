@@ -312,6 +312,9 @@
       width: 7%;
     }
 
+    .container-fluid>.row {
+      clear: both
+    }
 
     @media(max-width: 991px) {
       .skin {
