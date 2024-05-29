@@ -272,22 +272,17 @@
 
     .leaderboard {
       background-color: rgb(237, 128, 215);
-      border-radius: 15px 15px 0px 0px;
-      padding: 0.8em;
-    }
-
-    .leaderboardName {
-      background-color: rgb(250, 145, 229);
-      border-radius: 0px 0px 15px 15px;
-      padding: 0.8em;
-    }
-
-    .leaderboardPrize {
-      background-color: rgb(250, 145, 229);
       border-radius: 15px 15px 15px 15px;
-      padding: 0.8em;
-      margin-left: 20em;
-      margin-right: 20em;
+      padding: 1em;
+      width: 50%;
+
+    }
+
+    .leaderboard thead {
+      background-color: rgb(112, 20, 93);
+      border-radius: 15px 15px 15px 15px;
+      padding: 1em;
+
     }
 
     .pinkish {
@@ -314,6 +309,11 @@
 
     .container-fluid>.row {
       clear: both
+    }
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
     }
 
     @media(max-width: 991px) {
