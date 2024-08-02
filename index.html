@@ -121,7 +121,7 @@
 
         <p class="lightPink centered mcFont">Here you can find all the shematics from my videos, the web gallery and
             more !</p>
-            <p class="lightPink centered mcFont" id="subCount">Loading...</p>
+            
         <span class="noHighlight"><br><br><br><br></span>
 
         <div class="centered">
@@ -170,23 +170,3 @@
     crossorigin="anonymous"></script>
 
 </html>
-
-    <script>
-        const apiKey = 'AIzaSyBK2SSmkRZdQW-vs1_MVLjrI7xnTQYoXP4';
-        const channelId = 'UCehE2lWFbYtbMp6NbDtnH4g';
-        const apiUrl = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelId}&key=${apiKey}`;
-
-        async function fetchSubscriberCount() {
-            try {
-                const response = await fetch(apiUrl);
-                const data = await response.json();
-                const subscriberCount = data.items[0].statistics.subscriberCount;
-                document.getElementById('subCount').textContent = `Subscribers: ${subscriberCount}`;
-            } catch (error) {
-                console.error('Error fetching subscriber count:', error);
-                document.getElementById('subCount').textContent = 'Failed to load subscriber count.';
-            }
-        }
-
-        fetchSubscriberCount();
-    </script>
